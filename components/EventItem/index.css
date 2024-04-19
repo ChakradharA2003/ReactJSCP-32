@@ -1,0 +1,27 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.event-list {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+}
+.image {
+  height: 140px;
+  width: 240px;
+}
+.name {
+  color: #ffffff;
+  font-size: 24px;
+}
+.location {
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 1px;
+}
+.image-btn {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
