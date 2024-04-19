@@ -1,0 +1,62 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.registration-container {
+  height: 100vh;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.initial-container {
+  align-self: flex-start;
+}
+.initial-para {
+  color: #64748b;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+.yet-to-register-image {
+  height: 300px;
+  width: 300px;
+}
+.yet-to-register-para {
+  color: #64748b;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+.yet-to-register-btn {
+  background-color: #0967d2;
+  color: #f8fafc;
+  align-self: stretch;
+  text-align: center;
+  border-width: 0px;
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 10pxs;
+}
+.registered-image {
+  height: 150px;
+  width: 150px;
+}
+.registered-para {
+  color: #323f4b;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+.registrations-closed-image {
+  height: 300px;
+  width: 300px;
+}
+.registrations-closed-heading {
+  text-align: center;
+  font-size: 24px;
+  color: #323f4b;
+}
